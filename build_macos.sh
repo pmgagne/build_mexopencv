@@ -1,14 +1,20 @@
-source ../venv/bin/activate
+source ./venv/bin/activate
 cd build
 cmake -D CMAKE_BUILD_TYPE=Release \
    -DOPENCV_EXTRA_MODULES_PATH=../contrib/modules \
    -DCMAKE_INSTALL_PREFIX=../lib \
-   -DBUILD_NEW_PYTHON_SUPPORT=ON \
+   -D BUILD_opencv_world=ON \
+   -D BUILD_NEW_PYTHON_SUPPORT=ON \
    -D BUILD_opencv_python3=ON \
    -D HAVE_opencv_python3=ON \
-   -DOPENCV_GENERATE_PKGCONFIG=ON \
+   -D PYTHON3_INCLUDE_DIR=../venv/include \
+   -D PYTHON3_PACKAGES_PATH=../venv/lib/python3.*/site-packages \
+   -D OPENCV_GENERATE_PKGCONFIG=ON \
+   -D BUILD_opencv_caffe=OFF \
+   -DBUILD_opencv_text=ON \
+   -DOPENCV_ENABLE_NONFREE=ON \
    ../opencv
-make -J2
+make -j2
 make install
 
 # -DWITH_MATLAB=0
