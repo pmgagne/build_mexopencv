@@ -7,12 +7,15 @@ cmake -D CMAKE_BUILD_TYPE=Release \
    -D BUILD_NEW_PYTHON_SUPPORT=ON \
    -D BUILD_opencv_python3=ON \
    -D HAVE_opencv_python3=ON \
-   -D PYTHON3_INCLUDE_DIR=../venv/include \
-   -D PYTHON3_PACKAGES_PATH=../venv/lib/python3.*/site-packages \
+   -D PYTHON_EXECUTABLE=$(which python) \
+   -D PYTHON_INCLUDE_DIR=$(python -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())") \
+   -D PYTHON_PACKAGES_PATH=$(python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") \
+   -D CMAKE_INSTALL_PREFIX=$(python -c "import sys; print(sys.prefix)") \
    -D OPENCV_GENERATE_PKGCONFIG=ON \
    -D BUILD_opencv_caffe=OFF \
-   -DBUILD_opencv_text=ON \
-   -DOPENCV_ENABLE_NONFREE=ON \
+   -D BUILD_opencv_text=ON \
+   -D OPENCV_ENABLE_NONFREE=ON \
+   -D WITH_PROTOBUF=ON \
    ../opencv
 make -j2
 make install
