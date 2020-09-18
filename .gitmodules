@@ -4,3 +4,6 @@
 [submodule "contrib"]
 	path = contrib
 	url = https://github.com/opencv/opencv_contrib.git
+[submodule "mexopencv"]
+	path = mexopencv
+	url = https://github.com/pmgagne/mexopencv.git
