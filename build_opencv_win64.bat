@@ -1,17 +1,24 @@
 rem Force l'utilisation de visual studio 2019
 call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\Build\vcvars64.bat
+set dll_output=vc16
+
+cd opencv
+git checkout 3.4.1
+cd ..\contrib
+git checkout 3.4.1
+cd ..
 
 if exist dist (
-    del /S /Q dist
+    del /F /S /Q dist
+) else (
+    mkdir dist
 )
 
 if exist build (
-    del /S /Q build
+    del /F /S /Q build
+) else (
+    mkdir build
 )
-
-mkdir dist
-mkdir build
-
 
 cd build
 
@@ -29,7 +36,6 @@ cmake   ^
    -D INSTALL_C_EXAMPLES=OFF ^
    -D WITH_PROTOBUF=ON ^
    -D BUILD_opencv_stereo=OFF ^
-   -D BUILD_opencv_img_hash=ON ^
    -D WITH_CUDA=0 ^
    ..\opencv
 
