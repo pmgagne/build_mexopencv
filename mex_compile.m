@@ -5,6 +5,7 @@ cd ('mexopencv')
 addpath('.')
 addpath('opencv_contrib')
 
+mexopencv.make('clean', true, 'opencv_path', fullfile(base_path, 'dist'),'opencv_contrib', true);
 mexopencv.make('opencv_path', fullfile(base_path, 'dist'),'opencv_contrib', true);
 
 dst_path = fullfile(base_path, 'dist', 'mexopencv');
