@@ -12,3 +12,4 @@ cd ..
 
 mkdir dist\mexopencv\bin
 copy dist\x64\vc16\bin dist\mexopencv\bin
+copy mexopencv_setup.m dist\mexopencv

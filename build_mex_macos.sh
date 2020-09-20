@@ -23,6 +23,7 @@ cp -r dist/lib dist/mexopencv
 cp -r mexopencv/test dist/mexopencv
 cp -r mexopencv/samples dist/mexopencv
 cp -r mexopencv/opencv_contrib/samples/* dist/mexopencv/samples
+cp mexopencv_setup.m dist/mexopencv
 
 for f in dist/mexopencv/+cv/*.mexmaci64
 do
