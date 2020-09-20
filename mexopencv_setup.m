@@ -2,6 +2,8 @@
 %
 % Note: this file must be in the base directory of mexopencv package.
 
+function mexopencv_setup()
+
 base_path = fileparts(mfilename('fullpath'));
 addpath(base_path);
 
