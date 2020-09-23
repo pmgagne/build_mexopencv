@@ -50,7 +50,7 @@ cmake -G"Visual Studio 16 2019"  ^
    -D OPENCV_ENABLE_NONFREE=ON ^
    -D INSTALL_C_EXAMPLES=OFF ^
    -D WITH_PROTOBUF=ON ^
-   -D BUILD_opencv_stereo=OFF ^
+   -D BUILD_opencv_stereo=ON ^
    -D WITH_CUDA=0 ^
    ..\opencv
 
@@ -58,7 +58,12 @@ cmake --build . --target install --config Release
 
 cd ..
 
-mkdir dist\x64\%lib_output%
+if exist dist\x64\%lib_output% (
+    del /F /S /Q dist\x64\%lib_output%
+) else (
+    mkdir dist\x64\%lib_output%
+)
+
 move dist\lib dist\x64\%lib_output%\
 move dist\bin dist\x64\%lib_output%\
 
