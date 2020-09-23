@@ -7,7 +7,7 @@ fi
 
 export PKG_CONFIG_PATH=$(pwd)/dist/lib/pkgconfig
 cd mexopencv
-git checkout 3.4.1.1
+git checkout 3.4.11
 
 make clean MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1  -j2
 make all MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1 CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 

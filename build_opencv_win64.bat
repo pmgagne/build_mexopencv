@@ -4,9 +4,9 @@ rem call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" 
 set lib_output=vc16
 
 cd opencv
-git checkout 3.4.1
+git checkout 3.4.11
 cd ..\contrib
-git checkout 3.4.1
+git checkout 3.4.11
 cd ..
 
 if exist dist (

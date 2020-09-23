@@ -1,7 +1,7 @@
 cd opencv
-git checkout 3.4.1
+git checkout 3.4.11
 cd ../contrib
-git checkout 3.4.1
+git checkout 3.4.11
 cd ..
 
 if [ -d dist ]

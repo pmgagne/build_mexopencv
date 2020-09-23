@@ -5,7 +5,7 @@ if exist dist\mexopencv (
 )
 
 cd mexopencv
-git checkout 3.4.1.1
+git checkout 3.4.11
 cd ..
 
 "C:\Program Files\MATLAB\R2020a\bin\matlab" -nodesktop -wait -sd . -r "mex_compile; quit"
