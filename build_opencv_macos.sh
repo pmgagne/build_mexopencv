@@ -46,7 +46,7 @@ cmake -D CMAKE_BUILD_TYPE=Release \
    -D OPENCV_ENABLE_NONFREE=ON \
    -D INSTALL_C_EXAMPLES=OFF \
    -D WITH_PROTOBUF=ON \
-   -D BUILD_opencv_stereo=OFF \
+   -D BUILD_opencv_stereo=ON \
    ../opencv
 
 cmake --build . --target install --config Release
