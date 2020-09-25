@@ -54,7 +54,9 @@ cmake -G"Visual Studio 16 2019"  ^
    -D WITH_CUDA=0 ^
    ..\opencv
 
-cmake --build . --target install --config Release
+rem cmake --build . --target install --config Release
+msbuild /p:Configuration=Release ..\build\ALL_BUILD.vcxproj
+msbuild /p:Configuration=Release ..\build\INSTALL.vcxproj
 
 cd ..
 
