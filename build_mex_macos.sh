@@ -9,9 +9,9 @@ export PKG_CONFIG_PATH=$(pwd)/dist/lib/pkgconfig
 cd mexopencv
 git checkout 3.4.11
 
-make clean MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1  -j2
-make all MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1 CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 
-make contrib MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1 CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 
+make clean MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1
+make all MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1 LDFLAGS="LINKFLAGS='$LINKFLAGS -Wl,-headerpad_max_install_names -headerpad_max_install_names m -rpath=@loader_path/../../lib'" CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 
+make contrib MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1 LDFLAGS="LINKFLAGS='$LINKFLAGS -Wl,-headerpad_max_install_names -headerpad_max_install_names -rpath=@loader_path/../../lib'" CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 
 
 cd ..
 rm -rf dist/mexopencv/*
