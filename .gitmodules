@@ -7,3 +7,6 @@
 [submodule "mexopencv"]
 	path = mexopencv
 	url = https://github.com/pmgagne/mexopencv.git
+[submodule "wiki"]
+	path = wiki
+	url = https://github.com/kyamagu/mexopencv.wiki.git

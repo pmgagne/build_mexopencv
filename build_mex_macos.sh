@@ -5,16 +5,17 @@ else
    mkdir dist/mexopencv
 fi
 
-# export PKG_CONFIG_PATH=$(pwd)/dist/lib/pkgconfig
-# cd mexopencv
-# git checkout 3.4.11
+export PKG_CONFIG_PATH=$(pwd)/dist/lib/pkgconfig
+cd mexopencv
+git checkout 3.4.11
 
-# make clean MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1
-# make all MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1  CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 
-# make contrib MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1 LDFLAGS="-lopencv_img_hash" CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 
+make clean MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1
+make all MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1  CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 
+make contrib MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv WITH_CONTRIB=1 LDFLAGS="-lopencv_img_hash" CXXFLAGS="CFLAGS='$CFLAGS -Wno-deprecated-declarations -Wno-potentially-evaluated-expression'" 
 
-#cd ..
+cd ..
 
+cp -r wiki mexopencv/doc/
 cp -r mexopencv/opencv_contrib/+cv/* mexopencv/+cv
 cp -r mexopencv/opencv_contrib/samples/* mexopencv/samples
 cp -r mexopencv/opencv_contrib/test/* mexopencv/test
