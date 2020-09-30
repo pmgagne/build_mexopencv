@@ -40,7 +40,7 @@ cmake -G"Visual Studio 16 2019"  ^
    -D BUILD_TESTS=OFF ^
    -D BUILD_PERF_TESTS=OFF ^
    -D CMAKE_INSTALL_PREFIX=..\dist ^
-   -D BUILD_opencv_world=OFF ^
+   -D BUILD_opencv_world=ON ^
    -D BUILD_opencv_python2=OFF ^
    -D BUILD_opencv_python3=%python3% ^
    -D PYTHON3_EXECUTABLE=%python_executable% ^
@@ -59,14 +59,5 @@ msbuild /p:Configuration=Release ..\build\ALL_BUILD.vcxproj
 msbuild /p:Configuration=Release ..\build\INSTALL.vcxproj
 
 cd ..
-
-if exist dist\x64\%lib_output% (
-    del /F /S /Q dist\x64\%lib_output%
-) else (
-    mkdir dist\x64\%lib_output%
-)
-
-move dist\lib dist\x64\%lib_output%\
-move dist\bin dist\x64\%lib_output%\
 
 

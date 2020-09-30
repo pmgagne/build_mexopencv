@@ -14,4 +14,11 @@ if ispc
     if ~any(strcmpi(bin_path, prev_parts))
         setenv('PATH', [bin_path, ';', getenv('PATH')]);
     end
+
+    lib_path = fullfile(base_path, 'lib');
+    prev_path = getenv('PATH');
+    prev_parts = split(prev_path, ';');
+    if ~any(strcmpi(lib_path, prev_parts))
+        setenv('PATH', [lib_path, ';', getenv('PATH')]);
+    end
 end
