@@ -13,12 +13,13 @@ copy /Y dist\x64\vc16\bin\*dll mexopencv\lib
 "C:\Program Files\MATLAB\R2020b\bin\matlab" -nodesktop -wait -sd . -r "mex_compile; quit"
 "C:\Program Files\MATLAB\R2020b\bin\matlab" -nodesktop -wait -sd . -r "cd mexopencv;mexopencv_setup;addpath('utils');MDoc('-clean'); MDoc; quit"
 
+mkdir  dist\mexopencv\bin
 
-mkdir /y dist\mexopencv\bin
-copy /y dist\x64\vc16\bin\*.exe dist\mexopencv\bin
-copy /y mexopencv\*.m  mexopencv\README.markdown mexopencv\info.xml  dist\mexopencv
-copy /y mexopencv\+cv dist\mexopencv
-copy /y mexopencv\+mexopencv dist\mexopencv
-copy /y mexopencv\doc dist\mexopencv
-copy /y mexopencv\samples dist\mexopencv
-copy /y mexopencv\test dist\mexopencv
+xcopy dist\x64\vc16\bin\*.exe dist\mexopencv\bin\
+xcopy mexopencv\*.m  mexopencv\README.markdown mexopencv\info.xml  dist\mexopencv\
+xcopy mexopencv\+cv dist\mexopencv\+cv\
+xcopy mexopencv\+mexopencv dist\mexopencv\+mexopencv\
+xcopy mexopencv\doc dist\mexopencv\doc\
+xcopy mexopencv\samples dist\mexopencv\samples\
+xcopy mexopencv\test dist\mexopencv\test\
+xcopy mexopencv\lib dist\mexopencv\lib\
