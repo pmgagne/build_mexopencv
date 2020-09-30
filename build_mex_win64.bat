@@ -17,9 +17,9 @@ mkdir  dist\mexopencv\bin
 
 xcopy dist\x64\vc16\bin\*.exe dist\mexopencv\bin\
 xcopy mexopencv\*.m  mexopencv\README.markdown mexopencv\info.xml  dist\mexopencv\
-xcopy mexopencv\+cv dist\mexopencv\+cv\
-xcopy mexopencv\+mexopencv dist\mexopencv\+mexopencv\
-xcopy mexopencv\doc dist\mexopencv\doc\
-xcopy mexopencv\samples dist\mexopencv\samples\
-xcopy mexopencv\test dist\mexopencv\test\
-xcopy mexopencv\lib dist\mexopencv\lib\
+xcopy /s mexopencv\+cv dist\mexopencv\+cv\
+xcopy /s mexopencv\+mexopencv dist\mexopencv\+mexopencv\
+xcopy /s mexopencv\doc dist\mexopencv\doc\
+xcopy /s mexopencv\samples dist\mexopencv\samples\
+xcopy /s mexopencv\test dist\mexopencv\test\
+xcopy /s mexopencv\lib dist\mexopencv\lib\
