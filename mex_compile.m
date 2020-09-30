@@ -16,3 +16,4 @@ copyfile('test', fullfile(dst_path, 'test'));
 copyfile('+cv', fullfile(dst_path, '+cv'));
 copyfile(fullfile('opencv_contrib', '+cv'), fullfile(dst_path, '+cv'));
 copyfile(fullfile('opencv_contrib', 'samples'), fullfile(dst_path, 'samples'));
+copyfile('doc', fullfile(dst_path, 'doc'));
