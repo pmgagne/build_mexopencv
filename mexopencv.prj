@@ -7,7 +7,7 @@
     <param.summary>Access OpenCV from Matlab.</param.summary>
     <param.description />
     <param.screenshot>${PROJECT_ROOT}/OpenCV_Logo.png</param.screenshot>
-    <param.version>3.4.11.2</param.version>
+    <param.version>3.4.11.3</param.version>
     <param.output>${PROJECT_ROOT}/mexopencv.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -40,300 +40,300 @@
    &lt;exampleCategory name="face: Face Analysis"&gt;
       &lt;example name="Face recognition" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/facerec_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Face landmark detection in an image" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/facemark_kazemi_detect_img_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Face landmark detection in a video" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/facemark_kazemi_detect_vid_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Training face landmark detector" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/facemark_kazemi_train_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Parameters for training face landmark detector" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/facemark_kazemi_train_config_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Facemark AAM training demo" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/facemark_aam_train_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Facemark LBF training demo" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/facemark_lbf_train_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Face landmark detection in a video (LBF)" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/facemark_lbf_fitting_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Face swapping using face landmark detection" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/face_swapping_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="saliency: Saliency API"&gt;
       &lt;example name="Saliency Algorithms" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/computeSaliency_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="xfeatures2d: Extra 2D Features Framework"&gt;
       &lt;example name="Introduction to SIFT (Scale-Invariant Feature Transform)" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/SIFT_detector.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Introduction to SURF (Speeded-Up Robust Features)" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/SURF_detector.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="BRIEF (Binary Robust Independent Elementary Features)" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/descriptor_extractor_brief_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Feature Matching" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/SURF_descriptor.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="GMS matching strategy (image)" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/gms_matcher_img_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="GMS matching strategy (video)" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/gms_matcher_vid_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="dnn_objdetect: DNN used for Object Detection"&gt;
       &lt;example name="DNN for image classification" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/dnn_img_classify_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Object Detection using Convolutional Neural Networks" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/dnn_objdetect_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="optflow: Optical Flow Algorithms"&gt;
       &lt;example name="Optical Flow Evaluation" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/optical_flow_evaluation_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Global Patch Collider" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/gpc_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="aruco: ArUco Marker Detection"&gt;
       &lt;example name="ArUco Marker Image" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_create_marker_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Detection of ArUco Markers" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_detect_markers_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="ArUco Grid Board Image" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_create_board_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Detection of ArUco Board" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_detect_board_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="ChArUco Board Image" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_create_board_charuco_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Detection of ChArUco Corners" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_detect_board_charuco_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="ChArUco Diamond Image" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_create_diamond_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Detection of Diamond Markers" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_detect_diamonds_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Camera Calibration using ArUco Board" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_calibrate_camera_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Camera Calibration using ChArUco Board" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/aruco_calibrate_camera_charuco_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="ximgproc: Extended Image Processing"&gt;
       &lt;example name="Superpixels Segmentation" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/superpixels_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Line Finding with the Fast Hough transform" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/fast_hough_transform_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Structured Forests for Fast Edge Detection" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/structured_edge_detection_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Graph-Based Image Segmentation" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/graphsegmentation_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Niblack Thresholding" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/niblack_thresholding_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Domain Transform Filter" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/dtFilter_demo_gui.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Disparity Map Filtering" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/disparity_filtering_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Fast Line Detector" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/fld_lines_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Perona-Malik Anisotropic Diffusion" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/anisodiff_demo_gui.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Pei&amp;amp;Lin Normalization" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/peilin_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Bright edges detection" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/brightedges_demo_gui.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Fourier Descriptors" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/fourier_descriptors_demo_gui.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="plot: Plot function for Mat data"&gt;
       &lt;example name="Plotting demo" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/plotting_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="xphoto: Additional Photo Processing Algorithms"&gt;
       &lt;example name="White Balancing" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/color_balance_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="line_descriptor: Binary Descriptors for Lines Extracted from an Image"&gt;
       &lt;example name="Lines features" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/line_extraction_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Line descriptors matching" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/line_matching_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Line descriptors radius matching" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/line_radius_matching_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="datasets: Framework for Working with Different Datasets"&gt;
       &lt;example name="The MNIST dataset of handwritten digits" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/dataset_mnist_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="bioinspired: Biologically Inspired Vision Models and Derivated Tools"&gt;
       &lt;example name="Retina demonstration" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/retina_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="OpenEXR images HDR Retina tone mapping" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/retina_hdr_tonemapping_demo_gui.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="hfs: Hierarchical Feature Selection for Efficient Image Segmentation"&gt;
       &lt;example name="Image Segmentation using Hierachical Feature Selection (HFS)" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/hfs_segment_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="bgsegm: Improved Background-Foreground Segmentation Methods"&gt;
       &lt;example name="Background Subtractor" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/BackgroundSubtractorDemo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="Evaluation of background subtraction algorithms on synthetic sequence" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/bgsegm_synthetic_seq_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="text: Scene Text Detection and Recognition"&gt;
       &lt;example name="Scene Text Detection using CNN" type="html"&gt;
          &lt;file type="source"/&gt;
-         &lt;file type="main"/&gt;
+         &lt;file type="main"&gt;/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/samples/textboxes_demo.m&lt;/file&gt;
          &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
@@ -343,7 +343,9 @@
     <param.registered.apps />
     <param.docs>${PROJECT_ROOT}/dist/mexopencv/info.xml</param.docs>
     <param.getting.started.guide>${PROJECT_ROOT}/dist/mexopencv/doc/GettingStarted.mlx</param.getting.started.guide>
-    <param.matlabpath.excludes />
+    <param.matlabpath.excludes>
+      <item>/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv</item>
+    </param.matlabpath.excludes>
     <param.javaclasspath.excludes />
     <param.exported.on.package>false</param.exported.on.package>
     <param.required.addons>
@@ -377,7 +379,6 @@
       <param.demosxml />
       <param.apps />
       <param.registered.apps />
-      <param.matlabpath.excludes />
       <param.javaclasspath.excludes />
       <param.exported.on.package />
       <param.matlab.project.id />
@@ -407,7 +408,8 @@
       <file>${PROJECT_ROOT}/dist/mexopencv/samples</file>
       <file>${PROJECT_ROOT}/dist/mexopencv/test</file>
     </fileset.rootfiles>
-    <fileset.depfun.included>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded>
       <file>/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/+cv/+test/MxArrayTest.m</file>
       <file>/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/+cv/+test/private/testMxArray1_.mexmaci64</file>
       <file>/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/+cv/+test/private/testMxArray1_.mexw64</file>
@@ -1773,8 +1775,7 @@
       <file>/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/Contents.m</file>
       <file>/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/info.xml</file>
       <file>/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/mexopencv_setup.m</file>
-    </fileset.depfun.included>
-    <fileset.depfun.excluded />
+    </fileset.depfun.excluded>
     <fileset.package />
     <build-deliverables>
       <file location="${PROJECT_ROOT}" name="mexopencv.mltbx" optional="false">/Users/philippegagne/Documents/MATLAB/build_opencv/dist/mexopencv/../../mexopencv.mltbx</file>
