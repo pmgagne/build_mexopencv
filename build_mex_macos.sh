@@ -15,7 +15,6 @@ make contrib MATLABDIR=/Applications/MATLAB_R2019b.app PKG_CONFIG_OPENCV=opencv 
 
 cd ..
 
-cp -r wiki mexopencv/doc/
 cp -r mexopencv/opencv_contrib/+cv/* mexopencv/+cv
 cp -r mexopencv/opencv_contrib/samples/* mexopencv/samples
 cp -r mexopencv/opencv_contrib/test/* mexopencv/test
