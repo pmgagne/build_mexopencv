@@ -1,0 +1,1007 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="3324146941" file="C:\temp\build_opencv\mexopencv\mexopencv_win64.prj" location="C:\temp\build_opencv\mexopencv" name="mexopencv_win64" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>mexopencv</param.appname>
+    <param.authnamewatermark>Philippe Gagné</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary>Access OpenCV from Matlab.</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\doc\opencv.png</param.screenshot>
+    <param.version>3.4.11.3</param.version>
+    <param.output>${PROJECT_ROOT}\mexopencv.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>480a9483-bfbe-41ce-9aed-6cc0e4f0d36d</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+**/.DS_Store
+.*
+lib/
+appveyor.yml</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="dnn: Deep Neural Network module"&gt;
+      &lt;example name="Deep Neural Network with Caffe models" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Fully-Convolutional Networks for Semantic Segmentation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="DNN Image Classification" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="DNN Semantic Segmentation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="DNN Object Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="DNN Face Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="DNN Face Detection and Recognition" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="DNN: Style Transfer" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="core: Core Functionality"&gt;
+      &lt;example name="Rotated Rectangle" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Reading/Writing XML and YAML files" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Serialization Functionality" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Blending" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Bitwise Operations on Images" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Brightness and contrast adjustments" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image padding" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="inRange Thresholding Operations" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Discrete Fourier Transform" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Kaleidoscope" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="imgcodecs: Image File Reading and Writing"&gt;
+      &lt;example name="Image similarity under lossy compression" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Create PNG image with alpha transparency" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="imgproc: Image Processing"&gt;
+      &lt;example name="Demonstration of drawing functions" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Basic Geometric Drawing" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Demonstration of text drawing functions" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Colormaps" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Delaunay triangulation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Convex Hull demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Retrieve and label connected components from a binary image." type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Contours Demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Watershed Demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Contours in OpenCV" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Finding contours in an image" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Flood-filling in an image" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Flood-Fill demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Thresholding" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Threshold demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Smoothing Demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Smoothing Images" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Polar Transforms demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Erosion and Dilation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Advanced Morphology Transformations Demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Extracting horizontal and vertical lines using morphology" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Hit-or-Miss Morphological Operation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Creating Bounding boxes and circles for contours" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Creating Bounding rotated boxes and ellipses for contours" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Fit ellipses" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Robust Line Fitting" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Moments" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Gabor Filter demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Fractalius-like image effect using Gabor filters" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Line Segment Detector demo" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Hough line detector" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Hough circle detector" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Generalized Hough transform" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Interactive foreground extraction using GrabCut" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image pyramids for image blending" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Laplacian Pyramid Construction and Merging" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Warping" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Interactive Perspective Transformation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Alignment using ECC algorithm" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Corner Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Refining Corner Locations" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Template Matching" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Phase Correlation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Convex Hull" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Minimum Area Enclosing" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Connected Components" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Canny Edge Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Laplacian Edge Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Create Binary Mask Interactively" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Create Binary Mask Interactively (IPT)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Interactive Rectangle Selection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Distance Transform" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Intensity Image Histogram" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Histogram Calculation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Histogram Equalization" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Histogram Comparison" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="2D Histogram" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Video Histogram" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Back Projection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="CAMShift" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Histogram-based face tracker with CAMShift" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="CLAHE (Contrast Limited Adaptive Histogram Equalization)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Remapping" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Fun with remap" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Affine Transformation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Pyramids" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Sobel Derivatives" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Laplace Operator" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Point Polygon Test" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Points Inside Convex Polygon" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Image Segmentation with Distance Transform and Watershed Algorithm" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Wiener Deconvolution for Image Deblurring" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Texture flow direction estimation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Coherence-Enhancing Filtering" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Multi-Scale Turing Patterns Generator" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Hi-Resolution Image Navigation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Squares Detector" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="Video Tutorials (OpenCV 2.4)"&gt;
+      &lt;example name="Tutorial 1: Setup (3 min, 23 sec)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Tutorial 2: Face Detection (1 min, 42 sec)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Tutorial 3: Webcam Input (1 min, 14 sec)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Tutorial 4: Feature Extraction and Matching (2 min, 21 sec)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="superres: Super Resolution"&gt;
+      &lt;example name="Super Resolution algorithms for video sequence" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="videostab: Video Stabilization"&gt;
+      &lt;example name="Video Stabilizer" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="stitching: Images Stitching"&gt;
+      &lt;example name="Simple rotation model images stitcher" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Rotation model images stitcher" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="objdetect: Object Detection"&gt;
+      &lt;example name="Face Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Face and Eyes Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Facial Features Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Smile Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="DBT Face Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="People Detection using HoG" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="video: Video Analysis"&gt;
+      &lt;example name="Segment objects in Background Subtractor" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Tracking of rotating point using Kalman filter" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Dual TV-L1 Optical Flow" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Farneback Optical Flow" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Dense Optical Flow" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Sparse Optical Flow" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Lucas-Kanade Sparse Optical Flow" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Lucas-Kanade Optical Flow" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Lucas-Kanade Tracker" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Lucas-Kanade Homography Tracker" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="shape: Shape Distance and Matching"&gt;
+      &lt;example name="Shape context for shape matching" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="ml: Machine Learning"&gt;
+      &lt;example name="K-Means Clustering" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="EM Clustering" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Gaussian Mixture Model (GMM)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="K-Means Color Quantization" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Comparison of different classifiers on the same dataset" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Showcase different classifiers" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Logistic Regression" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Support Vector Machines (SVM)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="K-Nearest Neighbors (KNN)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Principal Component Analysis (PCA)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="PCA for dimensionality reduction" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="SVMSGD Interactive Classification" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="OCR of hand-written digits using KNN" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="OCR of English letters using KNN" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="OCR of hand-written digits using HoG and SVM" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="photo: Computational Photography"&gt;
+      &lt;example name="High Dynamic Range Imaging" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Inpainting" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Non-Photorealistic Rendering" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Seamless Cloning" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Non-Local Means Image Denoising" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="feature2d: 2D Features Framework"&gt;
+      &lt;example name="FAST Algorithm for Corner Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="ORB (Oriented FAST and Rotated BRIEF)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Feature Matching + Homography to find a known object" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Affine invariant feature-based image matching" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="AKAZE local features matching" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="AKAZE and ORB planar tracking" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Detect, Compute, and Match Descriptors" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Blob Detection" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Maximally Stable Extremal Regions (MSER)" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Multi-target planar tracking" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Feature homography based planar tracking" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Planar augmented reality" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Correlation-based Tracking using MOSSE Filters" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="calib3d: Camera Calibration and 3D Reconstruction"&gt;
+      &lt;example name="Collect Calibration Pattern Images" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Camera Calibration" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Pose Estimation" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Stereo Calibration with square chessboard" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Stereo Image Matching" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Epipolar Geometry" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+   &lt;exampleCategory name="videoio: Media I/O"&gt;
+      &lt;example name="Video Capture" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Creating a video" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="Synthetic video" type="html"&gt;
+         &lt;file type="source"/&gt;
+         &lt;file type="main"/&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs>${PROJECT_ROOT}\info.xml</param.docs>
+    <param.getting.started.guide>${PROJECT_ROOT}\doc\GettingStarted.mlx</param.getting.started.guide>
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes>
+      <item>/utils/jars/commonmark-java/commonmark-0.15.2.jar</item>
+      <item>/utils/jars/jsoup/jsoup-1.13.1.jar</item>
+    </param.javaclasspath.excludes>
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.required.addons>
+      <requiredaddons />
+    </param.required.addons>
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start>R2017a</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>false</param.compatiblity.macos>
+    <param.compatiblity.linux>false</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>false</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.matlabpath.excludes />
+      <param.exported.on.package />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\+cv</file>
+      <file>${PROJECT_ROOT}\+mexopencv</file>
+      <file>${PROJECT_ROOT}\Contents.m</file>
+      <file>${PROJECT_ROOT}\doc</file>
+      <file>${PROJECT_ROOT}\Doxyfile</file>
+      <file>${PROJECT_ROOT}\include</file>
+      <file>${PROJECT_ROOT}\info.xml</file>
+      <file>${PROJECT_ROOT}\LICENSE</file>
+      <file>${PROJECT_ROOT}\Makefile</file>
+      <file>${PROJECT_ROOT}\mexopencv_setup.m</file>
+      <file>${PROJECT_ROOT}\opencv</file>
+      <file>${PROJECT_ROOT}\opencv_contrib</file>
+      <file>${PROJECT_ROOT}\README.markdown</file>
+      <file>${PROJECT_ROOT}\samples</file>
+      <file>${PROJECT_ROOT}\src</file>
+      <file>${PROJECT_ROOT}\test</file>
+      <file>${PROJECT_ROOT}\utils</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="mexopencv.mltbx" optional="false">C:\temp\build_opencv\mexopencv\mexopencv.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

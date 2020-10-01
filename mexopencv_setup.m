@@ -6,16 +6,10 @@ function mexopencv_setup()
 
 base_path = fileparts(mfilename('fullpath'));
 addpath(base_path);
+addpath(fullfile(base_path, 'opencv_contrib'));
 
 if ispc
-    bin_path = fullfile(base_path, 'bin');
-    prev_path = getenv('PATH');
-    prev_parts = split(prev_path, ';');
-    if ~any(strcmpi(bin_path, prev_parts))
-        setenv('PATH', [bin_path, ';', getenv('PATH')]);
-    end
-
-    lib_path = fullfile(base_path, 'lib');
+    lib_path = fullfile(base_path, 'opencv', 'x64', 'vc16', 'bin');
     prev_path = getenv('PATH');
     prev_parts = split(prev_path, ';');
     if ~any(strcmpi(lib_path, prev_parts))
