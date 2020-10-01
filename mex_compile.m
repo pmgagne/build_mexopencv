@@ -9,6 +9,9 @@ addpath(fullfile(pwd,'utils'));
 mexopencv.make('clean', true, 'opencv_path', fullfile(base_path, 'dist'),'opencv_contrib', true);
 mexopencv.make('opencv_path', fullfile(base_path, 'dist'),'opencv_contrib', true);
 
+MDoc('-clean');
+MDoc('-wiki');
+MDoc;
 
 copyfile(fullfile(pwd, 'opencv_contrib', '+cv'), fullfile(pwd, '+cv'));
 copyfile(fullfile(pwd, 'opencv_contrib', '+cv', 'private'), fullfile(pwd, '+cv', 'private'));

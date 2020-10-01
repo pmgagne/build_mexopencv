@@ -11,7 +11,6 @@ cd ..
 copy /y mexopencv_setup.m mexopencv
 copy /Y dist\x64\vc16\bin\*dll mexopencv\lib
 "C:\Program Files\MATLAB\R2020b\bin\matlab" -nodesktop -wait -sd . -r "mex_compile; quit"
-"C:\Program Files\MATLAB\R2020b\bin\matlab" -nodesktop -wait -sd . -r "cd mexopencv;mexopencv_setup;addpath('utils');MDoc('-clean'); MDoc; quit"
 
 mkdir  dist\mexopencv\bin
 

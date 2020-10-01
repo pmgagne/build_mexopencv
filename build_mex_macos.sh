@@ -33,7 +33,7 @@ do
    install_name_tool -add_rpath @loader_path/../../lib $f
 done
 
-/Applications/MATLAB_R2019b.app/bin/matlab -nodesktop -wait -sd . -r "cd mexopencv;addpath(pwd);addpath(fullfile(pwd, 'utils'));MDoc('-clean');MDoc; quit"
+/Applications/MATLAB_R2019b.app/bin/matlab -nodesktop -wait -sd . -r "cd mexopencv;addpath(pwd);addpath(fullfile(pwd, 'utils'));MDoc('-clean');MDoc('-wiki');MDoc; quit"
 
 rm -rdf dist/mexopencv/*
 mkdir dist/mexopencv/lib
