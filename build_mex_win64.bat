@@ -10,8 +10,8 @@ git pull
 cd ..
 
 copy /y mexopencv_setup.m mexopencv
-rem copy /Y dist\x64\vc16\bin\*dll mexopencv\lib
-rem xcopy /s dist mexopencv\opencv
+copy /y mexopencv_win64.prj mexopencv
+xcopy /s dist mexopencv\opencv\
 
 "C:\Program Files\MATLAB\R2020b\bin\matlab" -nodesktop -wait -sd . -r "mex_compile; quit"
 
