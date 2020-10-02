@@ -1,28 +1,29 @@
-base = pwd;
 %%
-publish_files = dir(fullfile('samples', '*.m'));
+copyfile('demos.xml', 'mexopencv');
 
-cd('samples');
+%%
+publish_files = dir(fullfile('mexopencv', 'samples', '*.m'));
+
 for f_idx = 1:length(publish_files)
-    fprintf('%s\n',publish_files(f_idx).name);
+    
+    fname = fullfile(publish_files(f_idx).folder, publish_files(f_idx).name);
+    fprintf('%s\n',fname);
     try
-        publish(publish_files(f_idx).name, 'evalCode', false);
+        publish(fname, 'evalCode', false);
     catch me
         warning('Error\n');
     end
 end
 %%
-cd(base)
-publish_files = dir(fullfile('opencv_contrib', 'samples', '*.m'));
+publish_files = dir(fullfile('mexopencv', 'opencv_contrib', 'samples', '*.m'));
 
-cd(fullfile('opencv_contrib', 'samples'));
 for f_idx = 1:length(publish_files)
-    fprintf('%s\n',publish_files(f_idx).name);
+    
+    fname = fullfile(publish_files(f_idx).folder, publish_files(f_idx).name);
+    fprintf('%s\n',fname);
     try
-        publish(publish_files(f_idx).name, 'evalCode', false);
+        publish(fname, 'evalCode', false);
     catch me
         warning('Error\n');
     end
 end
-
-cd(base);
