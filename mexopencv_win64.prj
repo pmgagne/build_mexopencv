@@ -1,12 +1,12 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="1408791287" file="C:\temp\build_opencv\mexopencv_win64.prj" location="C:\temp\build_opencv" name="mexopencv_win64" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="2407457649" file="C:\temp\build_opencv\mexopencv_win64.prj" location="C:\temp\build_opencv" name="mexopencv_win64" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>mexopencv</param.appname>
     <param.authnamewatermark>Philippe Gagné</param.authnamewatermark>
     <param.email />
     <param.company />
     <param.summary>Access OpenCV from Matlab.</param.summary>
     <param.description />
-    <param.screenshot />
+    <param.screenshot>${PROJECT_ROOT}\OpenCV_Logo.png</param.screenshot>
     <param.version>3.4.11.3</param.version>
     <param.output>${PROJECT_ROOT}\mexopencv.mltbx</param.output>
     <param.products.name />
@@ -1201,6 +1201,7 @@ appveyor.yml</param.exclude.filters>
     <param.matlabpath.excludes>
       <item>/src</item>
       <item>/opencv_contrib/src</item>
+      <item>/utils</item>
     </param.matlabpath.excludes>
     <param.javaclasspath.excludes>
       <item>/utils/jars/commonmark-java/commonmark-0.15.2.jar</item>
@@ -1229,7 +1230,6 @@ appveyor.yml</param.exclude.filters>
       <param.email />
       <param.company />
       <param.description />
-      <param.screenshot />
       <param.output />
       <param.products.name />
       <param.products.id />
