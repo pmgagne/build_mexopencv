@@ -1,7 +1,4 @@
 %%
-copyfile('demos.xml', 'mexopencv');
-
-%%
 publish_files = dir(fullfile('mexopencv', 'samples', '*.m'));
 
 for f_idx = 1:length(publish_files)
@@ -27,3 +24,7 @@ for f_idx = 1:length(publish_files)
         warning('Error\n');
     end
 end
+%%
+cd mexopencv
+builddocsearchdb(fullfile(pwd, 'doc'));
+cd ..

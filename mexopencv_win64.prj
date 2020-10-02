@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="2407457649" file="C:\temp\build_opencv\mexopencv_win64.prj" location="C:\temp\build_opencv" name="mexopencv_win64" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="409401322" file="C:\temp\build_opencv\mexopencv_win64.prj" location="C:\temp\build_opencv" name="mexopencv_win64" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>mexopencv</param.appname>
     <param.authnamewatermark>Philippe Gagné</param.authnamewatermark>
     <param.email />
@@ -1198,11 +1198,7 @@ appveyor.yml</param.exclude.filters>
     <param.registered.apps />
     <param.docs>${PROJECT_ROOT}\mexopencv\info.xml</param.docs>
     <param.getting.started.guide>${PROJECT_ROOT}\mexopencv\doc\GettingStarted.mlx</param.getting.started.guide>
-    <param.matlabpath.excludes>
-      <item>/src</item>
-      <item>/opencv_contrib/src</item>
-      <item>/utils</item>
-    </param.matlabpath.excludes>
+    <param.matlabpath.excludes />
     <param.javaclasspath.excludes>
       <item>/utils/jars/commonmark-java/commonmark-0.15.2.jar</item>
       <item>/utils/jars/jsoup/jsoup-1.13.1.jar</item>
@@ -1213,8 +1209,8 @@ appveyor.yml</param.exclude.filters>
     </param.required.addons>
     <param.matlab.project.id />
     <param.matlab.project.name />
-    <param.release.start>R2017a</param.release.start>
-    <param.release.end>latest</param.release.end>
+    <param.release.start />
+    <param.release.end />
     <param.release.current.only>false</param.release.current.only>
     <param.compatiblity.windows>true</param.compatiblity.windows>
     <param.compatiblity.macos>false</param.compatiblity.macos>
@@ -1239,6 +1235,7 @@ appveyor.yml</param.exclude.filters>
       <param.demosxml />
       <param.apps />
       <param.registered.apps />
+      <param.matlabpath.excludes />
       <param.exported.on.package />
       <param.matlab.project.id />
       <param.matlab.project.name />

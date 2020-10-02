@@ -35,17 +35,18 @@
     <label>core: Core Functionality</label>
     <demoitem>
       <label>Rotated Rectangle</label>
-      <type>other</type>
+      <type>M-file</type>
+      <source>RotatedRect_demo</source>
       <file>samples/html/RotatedRect_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Reading/Writing XML and YAML files</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/FileStorage_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Serialization Functionality</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/file_storage_demo.html</file>
     </demoitem>
     <demoitem>
@@ -55,7 +56,7 @@
     </demoitem>
     <demoitem>
       <label>Bitwise Operations on Images</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/image_bitwise_demo.html</file>
     </demoitem>
     <demoitem>
@@ -75,12 +76,12 @@
     </demoitem>
     <demoitem>
       <label>Discrete Fourier Transform</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/dft_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Kaleidoscope</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/kaleidoscope_demo.html</file>
     </demoitem>
   </demosection>
@@ -90,17 +91,17 @@
     <label>imgproc: Image Processing</label>
     <demoitem>
       <label>Demonstration of drawing functions</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/drawing_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Basic Geometric Drawing</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/drawing_basic_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Demonstration of text drawing functions</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/draw_text_demo.html</file>
     </demoitem>
     <demoitem>
@@ -120,12 +121,12 @@
     </demoitem>
     <demoitem>
       <label>Retrieve and label connected components from a binary image.</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/contours_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Contours Demo</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/contours2_demo.html</file>
     </demoitem>
     <demoitem>
@@ -137,7 +138,7 @@
     </demoitem>
     <demoitem>
       <label>Contours in OpenCV</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/contours_hierarchy_demo.html</file>
     </demoitem>
     <demoitem>
@@ -152,12 +153,12 @@
     </demoitem>
     <demoitem>
       <label>Flood-Fill demo</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/floodfill_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Image Thresholding</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/thresholding_demo.html</file>
       <!-- imnoise -->
       <dependency>Image Processing Toolbox</dependency>
@@ -169,12 +170,12 @@
     </demoitem>
     <demoitem>
       <label>Smoothing Demo</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/smoothing_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Smoothing Images</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/gausian_median_blur_bilateral_filter.html</file>
       <!-- normpdf -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
@@ -196,22 +197,22 @@
     </demoitem>
     <demoitem>
       <label>Extracting horizontal and vertical lines using morphology</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/morphology_demo_3.html</file>
     </demoitem>
     <demoitem>
       <label>Hit-or-Miss Morphological Operation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/hitmiss_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Creating Bounding boxes and circles for contours</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/generalContours_demo1.html</file>
     </demoitem>
     <demoitem>
       <label>Creating Bounding rotated boxes and ellipses for contours</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/generalContours_demo2.html</file>
     </demoitem>
     <demoitem>
@@ -236,33 +237,33 @@
     </demoitem>
     <demoitem>
       <label>Fractalius-like image effect using Gabor filters</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/gabor_demo.html</file>
       <!-- montage -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Line Segment Detector demo</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/lsd_lines_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Hough line detector</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/hough_lines_demo.html</file>
       <!-- *.png -->
       <!--<dependency>Image Processing Toolbox</dependency>-->
     </demoitem>
     <demoitem>
       <label>Hough circle detector</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/hough_circles_demo.html</file>
       <!-- *.png -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Generalized Hough transform</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/generalized_hough_demo.html</file>
     </demoitem>
     <demoitem>
@@ -274,7 +275,7 @@
     </demoitem>
     <demoitem>
       <label>Image pyramids for image blending</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/pyramids_blending.html</file>
     </demoitem>
     <demoitem>
@@ -296,14 +297,14 @@
     </demoitem>
     <demoitem>
       <label>Image Alignment using ECC algorithm</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/image_alignment_demo.html</file>
       <!-- imfuse -->
       <dependency>Computer Vision System Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Corner Detection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/generic_corner_detector_demo.html</file>
     </demoitem>
     <demoitem>
@@ -313,7 +314,7 @@
     </demoitem>
     <demoitem>
       <label>Template Matching</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/mask_tmpl_demo.html</file>
       <!-- *.png -->
       <dependency>Image Processing Toolbox</dependency>
@@ -325,12 +326,12 @@
     </demoitem>
     <demoitem>
       <label>Convex Hull</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/convexhull_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Minimum Area Enclosing</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/minarea_demo.html</file>
     </demoitem>
     <demoitem>
@@ -359,14 +360,14 @@
     </demoitem>
     <demoitem>
       <label>Create Binary Mask Interactively (IPT)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/create_mask_ipt_demo.html</file>
       <!-- imgca, impoly, makeConstrainToRectFcn -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Interactive Rectangle Selection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/mouse_and_match_demo.html</file>
       <!-- imrect -->
       <!--<dependency>Image Processing Toolbox</dependency>-->
@@ -383,26 +384,26 @@
     </demoitem>
     <demoitem>
       <label>Histogram Calculation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/histogram_calculation_demo.html</file>
       <!-- imhist -->
       <!--<dependency>Image Processing Toolbox</dependency>-->
     </demoitem>
     <demoitem>
       <label>Histogram Equalization</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/histogram_equalization_demo.html</file>
       <!-- *.tif, histeq, imhist -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Histogram Comparison</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/histogram_comparison_demo.html</file>
     </demoitem>
     <demoitem>
       <label>2D Histogram</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/histogram_2d_demo.html</file>
       <!-- *.jpg, *.png -->
       <!--<dependency>Image Processing Toolbox</dependency>-->
@@ -426,7 +427,7 @@
     </demoitem>
     <demoitem>
       <label>Histogram-based face tracker with CAMShift</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/camshift_track_demo.html</file>
       <!-- vipcolorsegmentation.avi, visionface.avi -->
       <dependency>Computer Vision System Toolbox</dependency>
@@ -440,17 +441,17 @@
     </demoitem>
     <demoitem>
       <label>Image Remapping</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/remap_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Fun with remap</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/remap_fun_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Image Affine Transformation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/warp_affine_demo.html</file>
     </demoitem>
     <demoitem>
@@ -460,29 +461,29 @@
     </demoitem>
     <demoitem>
       <label>Sobel Derivatives</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/sobel_derivatives_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Laplace Operator</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/laplace_operator_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Point Polygon Test</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/pointPolygonTest_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Points Inside Convex Polygon</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/points_polygon_demo.html</file>
       <!-- gscatter -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Image Segmentation with Distance Transform and Watershed Algorithm</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/watershed_segmentation_demo.html</file>
       <!-- tabulate -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
@@ -494,7 +495,7 @@
     </demoitem>
     <demoitem>
       <label>Texture flow direction estimation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/texture_flow_demo.html</file>
     </demoitem>
     <demoitem>
@@ -504,7 +505,7 @@
     </demoitem>
     <demoitem>
       <label>Multi-Scale Turing Patterns Generator</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/turing_patterns_demo.html</file>
     </demoitem>
     <demoitem>
@@ -516,7 +517,7 @@
     </demoitem>
     <demoitem>
       <label>Squares Detector</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/squares_detector_demo.html</file>
     </demoitem>
   </demosection>
@@ -526,12 +527,12 @@
     <label>imgcodecs: Image File Reading and Writing</label>
     <demoitem>
       <label>Image similarity under lossy compression</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/image_similarity_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Create PNG image with alpha transparency</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/rgba_png_demo.html</file>
     </demoitem>
   </demosection>
@@ -546,12 +547,12 @@
     </demoitem>
     <demoitem>
       <label>Creating a video</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/video_write_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Synthetic video</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/synth_video_demo.html</file>
     </demoitem>
   </demosection>
@@ -571,7 +572,7 @@
     </demoitem>
     <demoitem>
       <label>Dual TV-L1 Optical Flow</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/tvl1_optical_flow_demo.html</file>
       <!-- implay, imshowpair -->
       <dependency>Image Processing Toolbox</dependency>
@@ -628,36 +629,36 @@
     <label>calib3d: Camera Calibration and 3D Reconstruction</label>
     <demoitem>
       <label>Collect Calibration Pattern Images</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/calibration_capture_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Camera Calibration</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/calibration_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Pose Estimation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/calibration_pose_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Stereo Calibration with square chessboard</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/stereo_calibration_demo.html</file>
       <!-- *.png -->
       <!--<dependency>Computer Vision System Toolbox</dependency>-->
     </demoitem>
     <demoitem>
       <label>Stereo Image Matching</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/stereo_match_demo.html</file>
       <!-- pointCloud, pcshow, pcwrite -->
       <dependency>Computer Vision System Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Epipolar Geometry</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/epipolar_geometry_demo.html</file>
       <!-- imshowpair -->
       <dependency>Image Processing Toolbox</dependency>
@@ -669,71 +670,71 @@
     <label>feature2d: 2D Features Framework</label>
     <demoitem>
       <label>FAST Algorithm for Corner Detection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/feature_detector_fast_demo.html</file>
     </demoitem>
     <demoitem>
       <label>ORB (Oriented FAST and Rotated BRIEF)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/orb_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Feature Matching + Homography to find a known object</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/feature_homography_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Affine invariant feature-based image matching</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/asift_demo.html</file>
       <!-- impoly -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>AKAZE local features matching</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/akaze_match_demo.html</file>
     </demoitem>
     <demoitem>
       <label>AKAZE and ORB planar tracking</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/planar_tracker_demo.html</file>
       <!-- imrect -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Detect, Compute, and Match Descriptors</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/descriptors_compute_match_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Blob Detection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/detect_blob_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Maximally Stable Extremal Regions (MSER)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/mser_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Multi-target planar tracking</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/plane_tracker_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Feature homography based planar tracking</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/feature_homography_track_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Planar augmented reality</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/plane_ar_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Correlation-based Tracking using MOSSE Filters</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/mosse_demo.html</file>
     </demoitem>
   </demosection>
@@ -755,7 +756,7 @@
     </demoitem>
     <demoitem>
       <label>Facial Features Detection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/facial_features_demo.html</file>
     </demoitem>
     <demoitem>
@@ -782,42 +783,42 @@
     <label>dnn: Deep Neural Network module</label>
     <demoitem>
       <label>Deep Neural Network with Caffe models</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/caffe_googlenet_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Fully-Convolutional Networks for Semantic Segmentation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/fcn_semsegm_demo.html</file>
     </demoitem>
     <demoitem>
       <label>DNN Image Classification</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/dnn_image_classification_demo.html</file>
     </demoitem>
     <demoitem>
       <label>DNN Semantic Segmentation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/dnn_semantic_segmentation_demo.html</file>
     </demoitem>
     <demoitem>
       <label>DNN Object Detection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/dnn_object_detection_demo.html</file>
     </demoitem>
     <demoitem>
       <label>DNN Face Detection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/dnn_face_detector.html</file>
     </demoitem>
     <demoitem>
       <label>DNN Face Detection and Recognition</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/dnn_face_recognition.html</file>
     </demoitem>
     <demoitem>
       <label>DNN: Style Transfer</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/dnn_style_transfer.html</file>
     </demoitem>
   </demosection>
@@ -827,45 +828,45 @@
     <label>ml: Machine Learning</label>
     <demoitem>
       <label>K-Means Clustering</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/kmeans_demo.html</file>
       <!-- gscatter -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>EM Clustering</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/em_demo.html</file>
       <!-- gscatter -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Gaussian Mixture Model (GMM)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/gaussian_mix_demo.html</file>
       <!-- mvnrnd, cholcov -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>K-Means Color Quantization</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/kmeans_color_quantize_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Comparison of different classifiers on the same dataset</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/classification_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Showcase different classifiers</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/ml_demo.html</file>
       <!-- gscatter -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Logistic Regression</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/logistic_regression_demo.html</file>
       <!-- montage -->
       <dependency>Image Processing Toolbox</dependency>
@@ -874,26 +875,26 @@
     </demoitem>
     <demoitem>
       <label>Support Vector Machines (SVM)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/svm_intro_demo.html</file>
       <!-- tabulate -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>K-Nearest Neighbors (KNN)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/knn_demo.html</file>
       <!-- tabulate -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Principal Component Analysis (PCA)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/pca_intro_demo.html</file>
     </demoitem>
     <demoitem>
       <label>PCA for dimensionality reduction</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/pca_demo.html</file>
       <!-- montage -->
       <dependency>Image Processing Toolbox</dependency>
@@ -905,21 +906,21 @@
     </demoitem>
     <demoitem>
       <label>OCR of hand-written digits using KNN</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/knn_ocr_digits_demo.html</file>
       <!-- montage -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>OCR of English letters using KNN</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/knn_ocr_letters_demo.html</file>
       <!-- tabulate -->
       <dependency>Statistics and Machine Learning Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>OCR of hand-written digits using HoG and SVM</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/svm_hog_ocr_digits_demo.html</file>
       <!-- extractHOGFeatures -->
       <dependency>Computer Vision System Toolbox</dependency>
@@ -935,7 +936,7 @@
     <label>photo: Computational Photography</label>
     <demoitem>
       <label>High Dynamic Range Imaging</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/hdr_imaging_demo.html</file>
       <!-- *.jpg, montage, makehdr, hdrread, tonemap -->
       <dependency>Image Processing Toolbox</dependency>
@@ -949,17 +950,17 @@
     </demoitem>
     <demoitem>
       <label>Non-Photorealistic Rendering</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/npr_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Seamless Cloning</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/cloning_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Non-Local Means Image Denoising</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/non_local_means_demo.html</file>
       <!-- imnoise, implay, *.tif -->
       <dependency>Image Processing Toolbox</dependency>
@@ -971,12 +972,12 @@
     <label>stitching: Images Stitching</label>
     <demoitem>
       <label>Simple rotation model images stitcher</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/stitching_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Rotation model images stitcher</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/stitching_detailed_demo.html</file>
       <!-- *.jpg -->
       <dependency>Computer Vision System Toolbox</dependency>
@@ -990,7 +991,7 @@
     <label>shape: Shape Distance and Matching</label>
     <demoitem>
       <label>Shape context for shape matching</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/shape_context_demo.html</file>
     </demoitem>
   </demosection>
@@ -1000,7 +1001,7 @@
     <label>superres: Super Resolution</label>
     <demoitem>
       <label>Super Resolution algorithms for video sequence</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/super_resolution_demo.html</file>
     </demoitem>
   </demosection>
@@ -1010,7 +1011,7 @@
     <label>videostab: Video Stabilization</label>
     <demoitem>
       <label>Video Stabilizer</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>samples/html/videostab_demo.html</file>
       <!-- shaky_car.avi -->
       <dependency>Computer Vision System Toolbox</dependency>
@@ -1022,52 +1023,52 @@
     <label>aruco: ArUco Marker Detection</label>
     <demoitem>
       <label>ArUco Marker Image</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_create_marker_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Detection of ArUco Markers</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_detect_markers_demo.html</file>
     </demoitem>
     <demoitem>
       <label>ArUco Grid Board Image</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_create_board_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Detection of ArUco Board</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_detect_board_demo.html</file>
     </demoitem>
     <demoitem>
       <label>ChArUco Board Image</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_create_board_charuco_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Detection of ChArUco Corners</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_detect_board_charuco_demo.html</file>
     </demoitem>
     <demoitem>
       <label>ChArUco Diamond Image</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_create_diamond_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Detection of Diamond Markers</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_detect_diamonds_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Camera Calibration using ArUco Board</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_calibrate_camera_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Camera Calibration using ChArUco Board</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/aruco_calibrate_camera_charuco_demo.html</file>
       <!-- implay -->
       <dependency>Image Processing Toolbox</dependency>
@@ -1079,12 +1080,12 @@
     <label>bgsegm: Improved Background-Foreground Segmentation Methods</label>
     <demoitem>
       <label>Background Subtractor</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/BackgroundSubtractorDemo.html</file>
     </demoitem>
     <demoitem>
       <label>Evaluation of background subtraction algorithms on synthetic sequence</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/bgsegm_synthetic_seq_demo.html</file>
     </demoitem>
   </demosection>
@@ -1094,7 +1095,7 @@
     <label>bioinspired: Biologically Inspired Vision Models and Derivated Tools</label>
     <demoitem>
       <label>Retina demonstration</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/retina_demo.html</file>
     </demoitem>
     <demoitem>
@@ -1109,7 +1110,7 @@
     <label>datasets: Framework for Working with Different Datasets</label>
     <demoitem>
       <label>The MNIST dataset of handwritten digits</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/dataset_mnist_demo.html</file>
       <!-- montage -->
       <dependency>Image Processing Toolbox</dependency>
@@ -1121,12 +1122,12 @@
     <label>dnn_objdetect: DNN used for Object Detection</label>
     <demoitem>
       <label>DNN for image classification</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/dnn_img_classify_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Object Detection using Convolutional Neural Networks</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/dnn_objdetect_demo.html</file>
     </demoitem>
   </demosection>
@@ -1141,7 +1142,7 @@
     <label>face: Face Analysis</label>
     <demoitem>
       <label>Face recognition</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facerec_demo.html</file>
       <!-- montage -->
       <dependency>Image Processing Toolbox</dependency>
@@ -1150,47 +1151,47 @@
     </demoitem>
     <demoitem>
       <label>Face landmark detection in an image</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facemark_kazemi_detect_img_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Face landmark detection in a video</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facemark_kazemi_detect_vid_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Training face landmark detector</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facemark_kazemi_train_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Training face landmark detector</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facemark_kazemi_train2_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Parameters for training face landmark detector</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facemark_kazemi_train_config_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Facemark AAM training demo</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facemark_aam_train_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Facemark LBF training demo</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facemark_lbf_train_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Face landmark detection in a video (LBF)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/facemark_lbf_fitting_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Face swapping using face landmark detection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/face_swapping_demo.html</file>
       <!-- kids.tif -->
       <dependency>Image Processing Toolbox</dependency>
@@ -1202,7 +1203,7 @@
     <label>hfs: Hierarchical Feature Selection for Efficient Image Segmentation</label>
     <demoitem>
       <label>Image Segmentation using Hierachical Feature Selection (HFS)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/hfs_segment_demo.html</file>
       <!-- label2rgb -->
       <dependency>Image Processing Toolbox</dependency>
@@ -1219,19 +1220,19 @@
     <label>line_descriptor: Binary Descriptors for Lines Extracted from an Image</label>
     <demoitem>
       <label>Lines features</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/line_extraction_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Line descriptors matching</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/line_matching_demo.html</file>
       <!-- cameraman.tif -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Line descriptors radius matching</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/line_radius_matching_demo.html</file>
     </demoitem>
   </demosection>
@@ -1241,14 +1242,14 @@
     <label>optflow: Optical Flow Algorithms</label>
     <demoitem>
       <label>Optical Flow Evaluation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/optical_flow_evaluation_demo.html</file>
       <!-- imshowpair -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Global Patch Collider</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/gpc_demo.html</file>
     </demoitem>
   </demosection>
@@ -1258,7 +1259,7 @@
     <label>plot: Plot function for Mat data</label>
     <demoitem>
       <label>Plotting demo</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/plotting_demo.html</file>
     </demoitem>
   </demosection>
@@ -1268,7 +1269,7 @@
     <label>saliency: Saliency API</label>
     <demoitem>
       <label>Saliency Algorithms</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/computeSaliency_demo.html</file>
     </demoitem>
   </demosection>
@@ -1278,12 +1279,12 @@
     <label>text: Scene Text Detection and Recognition</label>
     <demoitem>
       <label>Scene Text Detection using CNN</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/textboxes_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Scene Text Detection using CNN</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/textboxes_dnn_demo.html</file>
     </demoitem>
   </demosection>
@@ -1293,32 +1294,32 @@
     <label>xfeatures2d: Extra 2D Features Framework</label>
     <demoitem>
       <label>Introduction to SIFT (Scale-Invariant Feature Transform)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/SIFT_detector.html</file>
     </demoitem>
     <demoitem>
       <label>Introduction to SURF (Speeded-Up Robust Features)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/SURF_detector.html</file>
     </demoitem>
     <demoitem>
       <label>BRIEF (Binary Robust Independent Elementary Features)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/descriptor_extractor_brief_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Feature Matching</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/SURF_descriptor.html</file>
     </demoitem>
     <demoitem>
       <label>GMS matching strategy (image)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/gms_matcher_img_demo.html</file>
     </demoitem>
     <demoitem>
       <label>GMS matching strategy (video)</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/gms_matcher_vid_demo.html</file>
     </demoitem>
   </demosection>
@@ -1328,33 +1329,33 @@
     <label>ximgproc: Extended Image Processing</label>
     <demoitem>
       <label>Superpixels Segmentation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/superpixels_demo.html</file>
       <!-- imlincomb, label2rgb -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Line Finding with the Fast Hough transform</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/fast_hough_transform_demo.html</file>
       <!-- houghpeaks -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Structured Forests for Fast Edge Detection</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/structured_edge_detection_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Graph-Based Image Segmentation</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/graphsegmentation_demo.html</file>
       <!-- label2rgb -->
       <dependency>Image Processing Toolbox</dependency>
     </demoitem>
     <demoitem>
       <label>Niblack Thresholding</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/niblack_thresholding_demo.html</file>
       <!-- printedtext.png, rice.png, imtophat, strel, imadjust -->
       <!--<dependency>Image Processing Toolbox</dependency>-->
@@ -1366,12 +1367,12 @@
     </demoitem>
     <demoitem>
       <label>Disparity Map Filtering</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/disparity_filtering_demo.html</file>
     </demoitem>
     <demoitem>
       <label>Fast Line Detector</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/fld_lines_demo.html</file>
     </demoitem>
     <demoitem>
@@ -1381,7 +1382,7 @@
     </demoitem>
     <demoitem>
       <label>Pei&amp;Lin Normalization</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/peilin_demo.html</file>
     </demoitem>
     <demoitem>
@@ -1406,7 +1407,7 @@
     <label>xphoto: Additional Photo Processing Algorithms</label>
     <demoitem>
       <label>White Balancing</label>
-      <type>other</type>
+      <type>M-file</type>
       <file>opencv_contrib/samples/html/color_balance_demo.html</file>
     </demoitem>
   </demosection>
