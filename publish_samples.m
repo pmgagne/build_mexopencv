@@ -1,6 +1,8 @@
 %%
 addpath('mexopencv')
-addpath(fullfile('mexopencv', 'open_contrib'))
+
+% No need to add open_contrib because we copied it into +cv
+% addpath(fullfile('mexopencv', 'open_contrib'))
 
 %%
 publish_files = dir(fullfile('mexopencv', 'samples', '*.m'));

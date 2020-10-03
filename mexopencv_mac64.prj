@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration build-checksum="1462520897" file="/Users/philippegagne/Documents/MATLAB/build_opencv/mexopencv_mac64.prj" location="/Users/philippegagne/Documents/MATLAB/build_opencv" name="mexopencv_mac64" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="3489830458" file="/Users/philippegagne/Documents/MATLAB/build_opencv/mexopencv_mac64.prj" location="/Users/philippegagne/Documents/MATLAB/build_opencv" name="mexopencv_mac64" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>mexopencv</param.appname>
     <param.authnamewatermark>Philippe Gagné</param.authnamewatermark>
     <param.email />
@@ -37,7 +37,8 @@
 .*
 lib/
 appveyor.yml
-**/*.*~</param.exclude.filters>
+**/*.*~
+opencv_contrib/+cv</param.exclude.filters>
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;examples&gt;
@@ -350,6 +351,7 @@ appveyor.yml
          &lt;file type="image"&gt;/samples/html/feature_homography_demo_01.png&lt;/file&gt;
          &lt;file type="image"&gt;/samples/html/feature_homography_demo_02.png&lt;/file&gt;
          &lt;file type="image"&gt;/samples/html/feature_homography_demo_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/samples/html/feature_homography_demo_04.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="Affine invariant feature-based image matching" type="html"&gt;
          &lt;file type="source"&gt;/samples/html/asift_demo.html&lt;/file&gt;
@@ -535,9 +537,7 @@ appveyor.yml
       &lt;example name="Fully-Convolutional Networks for Semantic Segmentation" type="html"&gt;
          &lt;file type="source"&gt;/samples/html/fcn_semsegm_demo.html&lt;/file&gt;
          &lt;file type="main"/&gt;
-         &lt;file type="thumbnail"&gt;/samples/html/fcn_semsegm_demo.png&lt;/file&gt;
-         &lt;file type="image"&gt;/samples/html/fcn_semsegm_demo_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/samples/html/fcn_semsegm_demo_02.png&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="DNN Image Classification" type="html"&gt;
          &lt;file type="source"&gt;/samples/html/dnn_image_classification_demo.html&lt;/file&gt;
@@ -548,9 +548,7 @@ appveyor.yml
       &lt;example name="DNN Semantic Segmentation" type="html"&gt;
          &lt;file type="source"&gt;/samples/html/dnn_semantic_segmentation_demo.html&lt;/file&gt;
          &lt;file type="main"/&gt;
-         &lt;file type="thumbnail"&gt;/samples/html/dnn_semantic_segmentation_demo.png&lt;/file&gt;
-         &lt;file type="image"&gt;/samples/html/dnn_semantic_segmentation_demo_01.png&lt;/file&gt;
-         &lt;file type="image"&gt;/samples/html/dnn_semantic_segmentation_demo_02.png&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
       &lt;example name="DNN Object Detection" type="html"&gt;
          &lt;file type="source"&gt;/samples/html/dnn_object_detection_demo.html&lt;/file&gt;
@@ -570,8 +568,7 @@ appveyor.yml
       &lt;example name="DNN: Style Transfer" type="html"&gt;
          &lt;file type="source"&gt;/samples/html/dnn_style_transfer.html&lt;/file&gt;
          &lt;file type="main"/&gt;
-         &lt;file type="thumbnail"&gt;/samples/html/dnn_style_transfer.png&lt;/file&gt;
-         &lt;file type="image"&gt;/samples/html/dnn_style_transfer_01.png&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
       &lt;/example&gt;
    &lt;/exampleCategory&gt;
    &lt;exampleCategory name="face: Face Analysis"&gt;
@@ -937,6 +934,7 @@ appveyor.yml
          &lt;file type="image"&gt;/samples/html/gabor_demo_01.png&lt;/file&gt;
          &lt;file type="image"&gt;/samples/html/gabor_demo_02.png&lt;/file&gt;
          &lt;file type="image"&gt;/samples/html/gabor_demo_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/samples/html/gabor_demo_04.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="Line Segment Detector demo" type="html"&gt;
          &lt;file type="source"&gt;/samples/html/lsd_lines_demo.html&lt;/file&gt;
@@ -1347,6 +1345,7 @@ appveyor.yml
          &lt;file type="image"&gt;/samples/html/gaussian_mix_demo_01.png&lt;/file&gt;
          &lt;file type="image"&gt;/samples/html/gaussian_mix_demo_02.png&lt;/file&gt;
          &lt;file type="image"&gt;/samples/html/gaussian_mix_demo_03.png&lt;/file&gt;
+         &lt;file type="image"&gt;/samples/html/gaussian_mix_demo_04.png&lt;/file&gt;
       &lt;/example&gt;
       &lt;example name="K-Means Color Quantization" type="html"&gt;
          &lt;file type="source"&gt;/samples/html/kmeans_color_quantize_demo.html&lt;/file&gt;
