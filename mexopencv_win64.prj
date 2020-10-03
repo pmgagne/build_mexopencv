@@ -7,7 +7,7 @@
     <param.summary>Access OpenCV from Matlab.</param.summary>
     <param.description />
     <param.screenshot>${PROJECT_ROOT}\OpenCV_Logo.png</param.screenshot>
-    <param.version>3.4.11.3</param.version>
+    <param.version>3.4.11.4</param.version>
     <param.output>${PROJECT_ROOT}\mexopencv.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -34,9 +34,12 @@
 % **/*.bak
 %
 **/.DS_Store
+.ci/
+.git/
 .*
 lib/
-appveyor.yml</param.exclude.filters>
+appveyor.yml
+opencv_contrib/+cv</param.exclude.filters>
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;examples&gt;
