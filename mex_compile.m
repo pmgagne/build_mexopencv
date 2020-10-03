@@ -1,6 +1,8 @@
 %MEX_BUILD compile opencv bindings for Matlab or octave.
 
 
+% Tested for win64 build. Mac and Linux use makefile.
+
 cd ('mexopencv');
 base_path = pwd
 addpath(pwd);
@@ -16,3 +18,7 @@ MDoc;
 
 copyfile(fullfile(pwd, 'opencv_contrib', '+cv'), fullfile(pwd, '+cv'));
 copyfile(fullfile(pwd, 'opencv_contrib', '+cv', 'private'), fullfile(pwd, '+cv', 'private'));
+
+% We avoid dll path problems by copying dlls in .mexw64 folders. If not we need to do a setenv('PATH')
+copyfile(fullfile(pwd, 'opencv', 'x64', 'vc16', 'bin','*.dll'), fullfile(pwd, '+cv'));
+copyfile(fullfile(pwd, 'opencv', 'x64', 'vc16', 'bin','*.dll'), fullfile(pwd, '+cv', 'private'));
