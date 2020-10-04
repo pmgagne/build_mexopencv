@@ -1,6 +1,6 @@
 %% Add all dnn networks
 if exist('dnn.zip', 'file')
-    unzip('dnn.zip', fullfile('mexopencv', 'test'));
+    %unzip('dnn.zip', fullfile('mexopencv', 'test'));
 end
 %%
 % No need to add open_contrib because we copied it into +cv
@@ -24,7 +24,7 @@ no_compile = {'asift_demo', 'calibration_capture_demo', ...
     'pyrlk_optical_flow_demo', 'segment_objects_demo', 'smiledetect_demo', ...
     'super_resolution_demo', 'synth_video_demo', 'thresholding_demo', ...
     'turing_patterns_demo', 'tvl1_optical_flow_demo', 'video_write_demo', ...
-    'watershed_segmentation_demo', 'dnn_face_recognition'};
+    'watershed_segmentation_demo', 'dnn_face_recognition', 'camshift_track_demo'};
 
 for f_idx = 1:length(publish_files)
     
