@@ -1,10 +1,12 @@
+%% Add all dnn networks
+if exist('dnn.zip', 'file')
+    unzip('dnn.zip', fullfile('mexopencv', 'test'));
+end
 %%
-addpath('mexopencv')
-
 % No need to add open_contrib because we copied it into +cv
 % addpath(fullfile('mexopencv', 'open_contrib'))
-
-%%
+addpath('mexopencv')
+%% Publish samples
 publish_files = dir(fullfile('mexopencv', 'samples', '*.m'));
 addpath(fullfile('mexopencv', 'samples'));
 
@@ -49,7 +51,8 @@ for f_idx = 1:length(publish_files)
 end
 
 rmpath(fullfile('mexopencv', 'samples'));
-%%
+%% Publish opencv_contrib/samples
+
 publish_files = dir(fullfile('mexopencv', 'opencv_contrib', 'samples', '*.m'));
 addpath(fullfile('mexopencv', 'opencv_contrib', 'samples'));
 
@@ -90,7 +93,8 @@ for f_idx = 1:length(publish_files)
 end
 
 rmpath(fullfile('mexopencv', 'opencv_contrib', 'samples'))
-%%
+%% Add searchable DB
+
 addpath(pwd)
 cd mexopencv
 builddocsearchdb(fullfile(pwd, 'doc'));
